@@ -1,0 +1,23 @@
+# NZ Job Application AI Agent  
+A structured AI agent for analysing job descriptions, tailoring CVs, generating cover letters, and preparing interviews for the New Zealand job market.
+
+---
+
+## 🌟 Overview  
+The NZ Job Application Agent helps job seekers in New Zealand by breaking the job application workflow into clear, logical steps:
+
+1. Analyse job descriptions  
+2. Identify required skills  
+3. Match the user’s background  
+4. Tailor CV bullet points  
+5. Generate personalised cover letters  
+6. Prepare interview answers  
+7. Write networking messages  
+8. Provide job search strategy  
+
+This agent uses **multi-step reasoning → planning → execution**.
+
+---
+
+## 🧠 System Prompt (Agent Identity)
+
