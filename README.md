@@ -89,6 +89,30 @@ Files:
 agents/nz-life-agent/system-prompt.md
 
 🧱 Architectural Concepts
+flowchart TD
+    subgraph User Layer
+        A[User Input]
+    end
+
+    subgraph Agent Core
+        B[System Prompt<br/>Role, Mission, Rules]
+        C[Workflow Engine<br/>Clarify → Analyse → Generate → Validate]
+    end
+
+    subgraph Skill Layer
+        D[Toolbox Modules<br/>STAR • Bullet Generator • Rewriter • Classifier]
+    end
+
+    subgraph Output Layer
+        E[Final Output<br/>Consistent & Structured]
+    end
+
+    A --> B
+    B --> C
+    C --> D
+    D --> C
+    C --> E
+
 System Prompt = Agent OS (Operating System)
 
 Defines:
